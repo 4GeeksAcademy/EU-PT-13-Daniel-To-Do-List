@@ -44,10 +44,11 @@ const Home = () => {
 						<div className="row border border-2 border-top-0 py-2">
 							
 								
-								<li  className="d-flex w-100 float-end" key={id}> 
-								<span className="fs-3 mx-4 align-items-start"> {subItems}</span>
+								<li  className="d-flex " key={id}> 
 								
-								<button type="button" className="btn-close border border-0 mt-2 btn-secondary float-end" onClick={() => deleteTask(id)}></button>
+								<span className="fs-3 col mx-4 align-items-start"> {subItems}</span>
+								
+								<button type="button" className="btn-close col-1 me-5 border border-0 mt-2 btn-secondary align-items-end" onClick={() => deleteTask(id)}></button>
 								</li>
 							
 						</div>
