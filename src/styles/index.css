@@ -1,3 +1,11 @@
+.btn-close{
+    
+    display: none;
+}
+
+li:hover .btn-close{
+    display: inline-block;
+}
 
 /* 
 
